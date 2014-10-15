@@ -1,6 +1,6 @@
 {
   "name": "broccoli-es6-module-facade",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Broccoli plugin to provide an ES6 facade for modules that expose globals.",
   "main": "index.js",
   "author": "Dan Freeman",

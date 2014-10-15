@@ -32,12 +32,12 @@ ES6ModuleFacade.prototype._exportsFor = function(moduleName) {
 
   if (options.exports) {
     Object.keys(options.exports).forEach(function(key) {
-      footer += 'export var ' + key + ' = (' + options.exports[key] + ');\n';
+      footer += 'export var ' + key + ' = ' + options.exports[key] + ';\n';
     });
   }
 
   if (options.defaultExport) {
-    footer += 'export default (' + options.defaultExport + ');\n';
+    footer += 'export default ' + options.defaultExport + ';\n';
   }
 
   return footer;
